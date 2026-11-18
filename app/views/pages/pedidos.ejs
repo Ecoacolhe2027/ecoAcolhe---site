@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <title>Meus pedidos | Eco Acolhe</title>
+</head>
+<body>
+    <main>
+        <%- include('../partials/headerCliente') %>
+
+        <section class="meus-pedidos">
+            <h1>Meus pedidos</h1>
+        
+            <article class="card-pedido">
+                <h2>Pedido #0004</h2>
+
+                <img src="/imagem/cesta.png" alt="">
+
+                <div class="detalhes-pedido">
+                    <h3>Cesta básica EcoAcolhe</h3>
+                    <p>20/09/2026</p>
+                    <p>500 pontos</p>
+                </div>
+
+                <a href="#" aria-label="Ver detalhes do pedido 0004">
+                    Ver detalhes
+                </a>
+            </article>
+
+            <article class="card-pedido">
+                <h2>Pedido #0005</h2>
+
+                <img src="/imagem/cesta.png" alt="">
+
+                <div class="detalhes-pedido">
+                    <h3>Cesta básica EcoAcolhe</h3>
+                    <p>20/09/2026</p>
+                    <p>500 pontos</p>
+                </div>
+
+                <a href="#" aria-label="Ver detalhes do pedido 0005">
+                    Ver detalhes
+                </a>
+            </article>
+        </section>
+
+        <%- include('../partials/navCliente') %>
+    </main>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <title>Perfil Cliente | Eco Acolhe</title>
+</head>
+<body>
+    <main>
+        <%- include('../partials/headerCliente') %>
+
+        <section class="perfil">
+            <h1>Meu perfil</h1> 
+
+            <figure class="foto-perfil">
+                <img src="/imagem/avatar.png" alt="Foto de perfil de Pedro">
+                <figcaption>
+                    <h2>Pedro</h2>
+                    <p>pedro@gmail.com</p>
+                </figcaption>
+            </figure>
+
+            <section class="dados-pessoais">
+                <h2>Dados pessoais</h2>
+
+                <dl>
+                    <dt>Nome</dt>
+                    <dd>Pedro</dd>
+
+                    <dt>E-mail</dt>
+                    <dd>pedro@gmail.com</dd>
+
+                    <dt>Telefone</dt>
+                    <dd>(11) 12345-6789</dd>
+
+                    <dt>Endereço</dt>
+                    <dd>São Paulo - SP</dd>
+                </dl>
+
+                <a href="#" class="editar-dados">Editar dados</a>
+            </section>
+
+            <section class="seguranca">
+                <h2>Segurança</h2>
+                <p>Senha: ********</p>
+                <a href="#">Alterar senha</a>
+            </section>
+            
+        </section>
+
+        <%- include('../partials/navCliente') %>
+    </main>
+</body>
+</html>
