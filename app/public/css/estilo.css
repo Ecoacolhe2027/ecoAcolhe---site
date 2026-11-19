@@ -1,74 +1,112 @@
+/* 1. Configurações gerais */
 
-body{
-    background-color: white;
-    min-height: 100vh;
+* {
+    box-sizing: border-box;
+}
+
+body {
     margin: 0;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    color: #191620;
+    padding-bottom: 65px;
 }
 
-.parte-superior{
-    background-color: #F5EEDC;
-    min-height: 300px;
-    border-radius: 0 0 50% 50%;
-    overflow: hidden;
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
 }
 
 
-.imagem-recicladores{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    
-}
-
-.imagem-recicladores img{
-    width: 100%;
-    max-width: 375px;
-}
-
-.logo{
-    width: 100px;
-}
-
-.texto-principal {
-    text-align: left;
-    margin: 15px;
-    padding-top: 0;
-}
+/* TIPOGRAFIA */
 
 h1 {
-    text-align: left;
-    font-size: 18px;
-    margin: 0;
-    max-width: 230px;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 16px;
 }
 
-.texto-principal p {
-    font-size: 12px;
-    max-width: 250px;
+h2 {
+    font-size: 20px;
+    margin: 0 0 12px;
 }
 
-#cadastre-se, #log-in {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 20px;
-    min-width: 100px;
-    background-color: #90CD76;
-    color: #191620;
-    text-decoration: none;
-    border-radius: 20px;
+h3 {
+    font-size: 16px;
+    margin: 0 0 10px;
 }
 
-#log-in {
-    background-color: #E6E6EF;
+p {
+    font-size: 14px;
+    line-height: 1.5;
 }
 
-#voltar {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    background-color: transparent;
-    color: #333;
-    border: none;
-    padding: 5px;
-     cursor: pointer;
+
+/* CABEÇALHO DO CLIENTE */
+
+.header-cliente {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
 }
+
+.logo-cliente {
+    width: 75px;
+}
+
+.avatar-cliente {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* NAVEGAÇÃO DO CLIENTE */
+
+.nav-cliente {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EAF8D9;
+    padding: 10px 5px;
+    z-index: 100;
+}
+
+.nav-cliente a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.nav-cliente .icone {
+    font-size: 20px;
+}
+
+/* 2. Página inicial */
+/* 3. Cadastro e Login */
+/* 4. Home */
+/* 5. Dashboard */
+/* 6. Meus Pontos */
+/* 7. Meus pedidos */
+/* 8. Perfil */
+/* 9. Responsividade */
