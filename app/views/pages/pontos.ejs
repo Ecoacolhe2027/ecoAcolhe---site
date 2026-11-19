@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <title>Meus pontos | Eco Acolhe</title>
+</head>
+<body>
+
+    <main>
+        <%- include('../partials/headerCliente') %>
+
+        <section class="meus-pontos">
+            <h1>Meus pontos</h1>
+        </section>
+
+        <section class="saldo">
+            <h2>Meu saldo</h2>
+
+            <article class="card-saldo">
+                <h2>Meu saldo</h2>
+                <p>1.230 pontos</p>
+                <p>Continue reciclando para ganhar mais!</p>
+            </article>
+        </section>
+
+        <section class="resumo-pontos">
+            <article class="card-pontos">
+                <h2>Pontos recebidos</h2>
+                <p>1.230 pts</p>
+            </article>
+
+            <article class="card-pontos">
+                <h2>Pontos utilizados</h2>
+                <p>-750 pts</p>
+            </article>
+        </section>
+
+        <section class="atividades">
+            <h2>Atividades recentes</h2>
+            <a href="/pedidos">Ver todas</a>
+
+            <article class="atividade">
+                <h3>Reciclagem</h3>
+                <p>28/09/26</p>
+                <p>+250 pts</p>
+            </article>
+        </section>
+
+        <%- include('../partials/navCliente') %>
+    </main>
+
+</body>
+</html>
