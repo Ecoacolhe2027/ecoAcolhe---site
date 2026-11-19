@@ -103,10 +103,43 @@ p {
 }
 
 /* 2. Página inicial */
+
 /* 3. Cadastro e Login */
+
 /* 4. Home */
+
 /* 5. Dashboard */
+    /* Cards de resumo */
+
+.resumo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.card-resumo {
+    background-color: #F5EEDC;
+    border-radius: 10px;
+    padding: 12px;
+    min-height: 90px;
+}
+
+.card-resumo h2 {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.card-resumo p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #249B50;
+    margin: 0;
+}
 /* 6. Meus Pontos */
+
 /* 7. Meus pedidos */
+
 /* 8. Perfil */
+
 /* 9. Responsividade */
